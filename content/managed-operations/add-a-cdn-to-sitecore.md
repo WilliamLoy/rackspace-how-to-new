@@ -39,6 +39,8 @@ This article describes how to Add a CDN to Sitecore.
 
 3. Select **Origin Type** > **Web App**.
 
+    **Note:** If you are using a custom domain you can select Custom Origin for the Origin Type and specify a url for your static content. This is useful for rewriting medialinks and exporting static content to another url. 
+
 4. Select the Web App associated with your Sitecore site. Select the CDN endpoint from the drop down menu, and then click **Add**.
 
 ### Configure Sitecore to load static content from the CDN
