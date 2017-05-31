@@ -11,7 +11,7 @@ product: Managed Operations
 product_url: managed-operations
 ---
 
-This article describes how to Add a CDN to Sitecore.
+This article describes how to add a CDN to Sitecore.
 
 ### Prerequisite
 
