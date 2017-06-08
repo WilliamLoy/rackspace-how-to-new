@@ -5,7 +5,7 @@ title: Set up Rackspace Email forwarding
 type: article
 created_date: '2017-06-07'
 created_by: William Loy
-last_modified_date: '2017-06-07'
+last_modified_date: '2017-06-08'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -21,7 +21,7 @@ Configure a Rackspace Email mailbox to forward to another email address. If you 
 
 - **Time needed:** Approximately 5 minutes to set forward / Additional 15 minutes for forward to function
 
-- **Tools required:** online email access for users or Cloud Office control panel for Administrators
+- **Tools required:** apps.rackspace.com access for Users / Cloud Office control panel for Administrators
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
