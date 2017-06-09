@@ -1,6 +1,6 @@
 ---
 permalink: rackspace-email-storage-maintenance-and-best-practices/
-audit_date: '2017-02-24'
+audit_date:
 title: Rackspace Email storage maintenance and best practices
 type: article
 created_date: '2017-06-08'
@@ -22,7 +22,6 @@ This article explains how to monitor user storage in your Cloud Office Control P
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
 
 
-Knowing the storage status of your users is paramount to effective account administration.
 
 ### Checking mailbox storage in the Cloud Office Control Panel
 
@@ -82,7 +81,7 @@ Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.
 
 Note: Rackspace support cannot assist with archiving  your email locally.
 
-- Generally speaking, the less mail you store in your mailbox the less likely you are to experience performance issues. If your mailbox max capacity is 25 GB, and you regularly store 24 GB in it, the you might experience performance issues.
+- Generally speaking, the less mail you store in your mailbox the less likely you are to experience performance issues. If your mailbox max capacity is 25 GB, and you regularly store 24 GB in it, you might experience performance issues.
 
 - If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in webmail.
 
