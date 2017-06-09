@@ -72,18 +72,18 @@ Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.
 
 ### Mailbox storage best practices
 
-- We recommend that all customers enable **Rackspace Email Archiving** for all domains.   
-
-- Regularly back up your email data to an external drive.
-
-- Set a schedule to archive email. For instance, "Every month I am going to archive any email over 2 years old". Regularly archiving mail not only protects your data in the event that you experience data loss, but it prevents mail performance issues by freeing up storage in the mailbox.
-
-- Generally speaking, the less mail you store in your mailbox the less likely you are to experience performance issues. If your mailbox max capacity is 25 GB, and you regularly store 24 GB in it, the you might experience performance issues.
+- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.  
 
 - Never store over 10,000 items in one folder, especially the **Inbox**.
 
 - Audit your email for unneeded messages. For instance, if you know you will never need that Spam message for any reason, delete it.
 
+- Set a schedule to archive email. For instance, "Every month I am going to archive any email over 2 years old". Regularly archiving mail not only protects your data in the event that you experience data loss, but it prevents mail performance issues by freeing up storage in the mailbox.
+
+Note: Rackspace support cannot assist with archiving  your email locally.
+
+- Generally speaking, the less mail you store in your mailbox the less likely you are to experience performance issues. If your mailbox max capacity is 25 GB, and you regularly store 24 GB in it, the you might experience performance issues.
+
 - If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in webmail.
 
-Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for your storage available on the server.
+Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for mailbox storage available on the server.
