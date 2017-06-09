@@ -17,8 +17,6 @@ This article explains how to monitor user storage in your Cloud Office Control P
 
 - **Applies to:** Administrator
 
-- **Difficulty:** Moderate
-
 - **Tools required:**  Cloud Office Control Panel access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
@@ -73,6 +71,8 @@ Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.
 
 
 ### Mailbox storage best practices
+
+- We recommend that all customers enable **Rackspace Email Archiving** for all domains.   
 
 - Regularly back up your email data to an external drive.
 
