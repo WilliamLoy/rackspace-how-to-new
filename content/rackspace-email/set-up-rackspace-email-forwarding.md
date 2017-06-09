@@ -46,6 +46,8 @@ Use these steps to forward email from your Rackspace Email address to another ad
 
 7. Enter the email address you would like to forward email to in the **Forward to** field.
 
+<!--- add screen shot file ForwardRSEWebmailSC2.png--->
+
 8. Click **Save** in the lower right-hand corner of the setting box.
 
 Note: Allow at least 15 minutes for the forward to be fully enabled after setting it up. If you are unable to set up a forward using this method please contact your administrator.
