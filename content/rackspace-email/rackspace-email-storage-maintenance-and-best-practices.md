@@ -51,7 +51,7 @@ It is important to check  the **Usage** for user to determine which users are ne
 
      1. Move an unwanted message to **Trash**
      2. The message has been moved to the **Trash** folder. Delete the message from **Trash**.   
-     3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from trash see [Recover delete email in Webmail](/how-to/recover-deleted-email-in-webmail/).
+     3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from trash see [Recover deleted email in Webmail](/how-to/recover-deleted-email-in-webmail/).
 
      Warning: Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. After 14 days the message cannot be recovered.
 
@@ -71,17 +71,15 @@ Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.
 
 ### Mailbox storage best practices
 
-- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.  
+- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with. For example, if you archive email to your computer, and your computer is damaged beyond repair you have no way to recover that local archive.  
+
+- If you must have over 25GB's in your mailbox at once, consider upgrading to our [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or [Office 365](https://www.rackspace.com/office-365) solutions.
 
 - Never store over 10,000 items in one folder, especially the **Inbox**.
 
 - Audit your email for unneeded messages. For instance, if you know you will never need that Spam message for any reason, delete it.
 
-- Set a schedule to archive email. For instance, "Every month I am going to archive any email over 2 years old". Regularly archiving mail not only protects your data in the event that you experience data loss, but it prevents mail performance issues by freeing up storage in the mailbox.
-
 Note: Rackspace support cannot assist with archiving  your email locally.
-
-- Generally speaking, the less mail you store in your mailbox the less likely you are to experience performance issues. If your mailbox max capacity is 25 GB, and you regularly store 24 GB in it, you might experience performance issues.
 
 - If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in webmail.
 
