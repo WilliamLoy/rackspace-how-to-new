@@ -5,7 +5,7 @@ title: Set up Rackspace Email forwarding
 type: article
 created_date: '2017-06-07'
 created_by: William Loy
-last_modified_date: '2017-06-08'
+last_modified_date: '2017-06-09'
 last_modified_by: William Loy
 product: Rackspace Email
 product_url: rackspace-email
@@ -32,8 +32,7 @@ Use these steps to forward email from your Rackspace Email address to another ad
 
 1. Log into the mailbox you wish to forward at [apps.rackspace.com](https://apps.rackspace.com/index.php)
 
-2. Select the settings in the upper right hand corner to the right of your email address.
-<!--- add screen shot file ForwardRSEWebmailSC1.png--->
+2. Click your username in the upper right-hand corner then select **Settings** from the drop down menu.
 
 3. A settings box will appear. Select the **Incoming Email** tab on the left hand side of this box.
 
