@@ -38,24 +38,32 @@ Knowing the storage status of your users is paramount to effective account admin
 
 4. The fourth column in the mailbox list labeled **Usage** shows the amount of free space each user has.
 
-Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours.
+Warning: If a mailbox is at max capacity, the mail sent during that time will be rejected and WILL NOT deliver after more mailbox space is created.
+
+Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in apps.rackspace.com for real time storage.
+
+
 
 It is important to check  the **Usage** for user to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
-
-Warning: If a mailbox shows at being max capacity, that mailbox will not receive incoming mail. The mail sent during that time will be rejected and WILL NOT deliver after more mailbox space is created.
 
 - Notify users near capacity and counsel them on archiving items to free up mailbox storage.
 
 - If a user deletes an excessive number of emails, this change will take longer to process. Allow ample time for that deletion to be reflected.
 
-- Email in the "Trash" folder does count toward the storage of the mailbox.
+- Email in the "Trash" folder DOES COUNT toward the storage of the mailbox. Follow the below steps to ensure a deleted message is not counting toward your mailbox storage.
+
+     1. Delete an unwanted message
+     2. The message has been move to the **Trash** folder. Delete the message from **Trash**.   
+     3. The message no longer counts to ward the mailbox storage. If you need to recover a message that you deleted from trash see [Recover delete email in Webmail](/how-to/recover-deleted-email-in-webmail/).
+
+     Warning: Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. After 14 days the message cannot be recovered.
 
 
 ### Mailbox storage best practices
 
 - Regularly back up your email data to an external drive.
 
-- Generally speaking, the less mail you store in your mailbox the more effective it will perform. If you mailbox max capacity is 25 GB, and your regularly store 24 GB in it, the mailbox will experience performance issues like slow load times.
+- Generally speaking, the less mail you store in your mailbox the more effective it will perform. If your mailbox max capacity is 25 GB, and you regularly store 24 GB in it, the mailbox will experience performance issues such as slow load times.
 
 - Never have over 10,000 items in one folder.
 
@@ -66,3 +74,5 @@ Warning: If a mailbox shows at being max capacity, that mailbox will not receive
 - If you archive or delete messages on your local [mail client]() log into [apps.rackspace.com]() to make certain that those changes are reflected in webmail.
 
 Note: Consider the storage shown in apps.rackspace.com to be the authority for your storage available on the server.
+
+###
