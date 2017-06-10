@@ -81,7 +81,7 @@ It is important to check  the **Usage** of mailboxes to determine which users ar
 
 - Never store over 10,000 items in one folder.
 
-- Consider removing items from your Spam or Deleted Items folders.
+- Consider removing items from your **Spam** or **Deleted Items** folders.
 
 - You should not exceed more than 3 levels of subfolders.
 
