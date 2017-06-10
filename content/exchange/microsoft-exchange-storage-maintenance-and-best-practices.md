@@ -83,4 +83,16 @@ It is important to check  the **Usage** of mailboxes to determine which users ar
 
 - Consider removing items from your Spam or Deleted Items folders.
 
+- You should not exceed more than 3 levels of subfolders.
+
+Example folder structure:
+
+    - Best practice folder
+
+        - Best practice folder
+
+            - Best practice folder
+            
+                - Not best practice folder
+
 - If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in Outlook Web Access.
