@@ -37,7 +37,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 Warning: If a mailbox is at max capacity, the mail sent during that time will be rejected and WILL NOT deliver after more mailbox space is created.
 
-Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in apps.rackspace.com for real time storage.
+Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in [apps.rackspace.com](https://apps.rackspace.com/index.php) for real time storage.
 
 
 
@@ -47,13 +47,13 @@ It is important to check  the **Usage** for user to determine which users are ne
 
 - If a user deletes an excessive number of emails, this change will take longer to process. Allow ample time for that deletion to be reflected.
 
-- Email in the "Trash" folder DOES COUNT toward the storage of the mailbox. Follow the below steps to ensure a deleted message is not counting toward your mailbox storage.
+- Email in the **Trash** folder DOES COUNT toward the storage of the mailbox. Follow the below steps to ensure a deleted message is not counting toward your mailbox storage.
 
      1. Move an unwanted message to **Trash**
      2. The message has been moved to the **Trash** folder. Delete the message from **Trash**.   
      3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from trash see [Recover deleted email in Webmail](/how-to/recover-deleted-email-in-webmail/).
 
-     Warning: Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. After 14 days the message cannot be recovered.
+     Warning: Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. 14 days after deletion the message cannot be recovered.
 
 - **Consider Rackspace Email Archiving** to ensure that email traffic to and from your domain is archived going forward. [Enable email archiving: Cloud Office Control Panel](/how-to/enable-email-archiving-cloud-office-control-panel/).
 
@@ -71,15 +71,26 @@ Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.
 
 ### Mailbox storage best practices
 
-- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with. For example, if you archive email to your computer, and your computer is damaged beyond repair you have no way to recover that local archive.  
+- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.   
 
 - If you must have over 25GB's in your mailbox at once, consider upgrading to our [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or [Office 365](https://www.rackspace.com/office-365) solutions.
 
-- Never store over 10,000 items in one folder, especially the **Inbox**.
+- Never store over 10,000 items in one folder.
 
-- Audit your email for unneeded messages. For instance, if you know you will never need that Spam message for any reason, delete it.
+- You should not exceed more than 3 levels of subfolders.
 
-Note: Rackspace support cannot assist with archiving  your email locally.
+    Example folder structure:
+
+    - Best practice folder(level 1)
+
+        - Best practice folder(level 2)
+
+            - Best practice folder(level 3)
+
+                - Not best practice folder
+
+
+- Consider removing items from your **Spam** or **Trash** folders.
 
 - If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in webmail.
 
