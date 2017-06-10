@@ -79,13 +79,13 @@ It is important to check  the **Usage** of mailboxes to determine which users ar
 
 - We recommend that all customers enable [**Rackspace Cloud Office Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.
 
-- Never store over 10,000 items in one folder, especially the **Inbox**.
+- Never store over 10,000 items in one folder.
 
 - Consider removing items from your Spam or Deleted Items folders.
 
 - You should not exceed more than 3 levels of subfolders.
 
-Example folder structure:
+    Example folder structure:
 
     - Best practice folder(level 1)
 
