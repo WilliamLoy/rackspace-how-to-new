@@ -39,9 +39,41 @@ Warning: If a mailbox is at max capacity, the mail sent during that time will be
 
 Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in [apps.rackspace.com](https://apps.rackspace.com/index.php) for real time storage.
 
+### Enable storage notifications to warn users when they are close to exceeding their storage quota
+
+1.	Select **Mailboxes** within the **Rackspace Email** section.
+
+    <!--add screen shot file RSEstorageCPSC1.png-->
+
+2. If you have multiple domains, select the domain you wish to enable storage notifications for.
+
+3. Select **Settings** from the sub-ribbon under **Email Accounts**
+
+    <!--add screen shot file RSEstorageNotificationsSC1.png-->
+
+4. Select **Storage Notification** from the options.
+
+5. Check the box next to **Activate full mailbox notification** and adjust settings as desired.
+
+    - Send a notification to the user when the mailbox reaches a certain percentage of capacity.
+    - Send CC to an email address of your choosing so that you easily know when users are about to exceed capacity.
+    - Customize the notification message to give your user instructions.  
+
+6. Click **Save**.
 
 
-It is important to check  the **Usage** for mailboxes to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
+### Checking mailbox storage in webmail
+
+1. Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php).
+
+2. Click your username in the upper-right hand corner and the dropdown menu will show the current mailbox storage.
+
+<!--add screen shot file RSEstorageWebmailSC1.png-->
+
+Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for your storage available on the server.
+
+
+### Recommendations for users nearing their storage capacity.
 
 - Notify users near capacity and counsel them on archiving items to free up mailbox storage.
 
@@ -56,17 +88,6 @@ It is important to check  the **Usage** for mailboxes to determine which users a
      Warning: Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. 14 days after deletion the message cannot be recovered.
 
 - **Consider Rackspace Email Archiving** to ensure that email traffic to and from your domain is archived going forward. [Enable email archiving: Cloud Office Control Panel](/how-to/enable-email-archiving-cloud-office-control-panel/).
-
-
-### Checking mailbox storage in webmail
-
-1. Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php).
-
-2. Click your username in the upper-right hand corner and the dropdown menu will show the current mailbox storage.
-
-<!--add screen shot file RSEstorageWebmailSC1.png-->
-
-Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for your storage available on the server.
 
 
 ### Mailbox storage best practices
