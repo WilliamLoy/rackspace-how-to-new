@@ -17,6 +17,10 @@ This article explains how to monitor user storage in your Cloud Office Control P
 
 - **Applies to:** Administrator
 
+- **Difficulty:** Easy
+
+- **Time needed:** At least 15 minutes for any changes made to storage
+
 - **Tools required:**  Cloud Office Control Panel access
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
@@ -29,59 +33,52 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 2.	Select **Mailboxes** within the **Microsoft Exchange** section.
 
-    <!--add screen shot file RSEstorageCPSC1.png-->
+    <!--add screen shot file HEXstorageCPSC1.png-->
 
 3.	If you have multiple domains, select the domain you wish to check storage for.
 
 4. The fourth column in the mailbox list labeled **Usage** shows the amount of free space each user has.
 
-
+Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in apps.rackspace.com for real time storage.
 
 Warning: If a mailbox is at max capacity, the mail sent during that time will be rejected and WILL NOT deliver after more mailbox space is created.
 
-Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in apps.rackspace.com for real time storage.
+5. To increase a user's storage quota, click the blue link for their corresponding mailbox name.
+
+    <!--add screen shot file HEXstorageCPSC2.png-->
+
+6. Under **Storage** there is a slide bar to increase the mailbox storage quota.
+
+    <!--add screen shot file HEXstorageCPSC3.png-->
+
+Note: Allow at least 15 minutes for the storage quota to be increased.
 
 
-It is important to check  the **Usage** for user to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
+It is important to check  the **Usage** of mailboxes to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
 
-- Notify users near capacity and counsel them on archiving items to free up mailbox storage.
+- Notify users nearing capacity and counsel them on archiving items to free up mailbox storage.
 
-- If a user deletes an excessive number of emails, this change will take longer to process. Allow ample time for that deletion to be reflected.
+- If a user deletes an excessive number of emails, this change will take longer to process. Allow ample time for that deletion to be reflected in the storage quota.
 
-- Email in the "Trash" folder DOES COUNT toward the storage quota of the mailbox. Follow the below steps to ensure a deleted message is not counting toward your mailbox storage.
+- Email in the **Deleted Items** folder DOES COUNT toward the storage quota of the mailbox. Follow the below steps to ensure a deleted message is not counting toward your mailbox storage.
 
-     1. Move an unwanted message to **Trash**
-     2. The message has been moved to the **Trash** folder. Delete the message from **Trash**.
-     3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from trash see [Recover deleted email in Webmail](/how-to/recover-deleted-email-in-webmail/).
+     1. Move an unwanted message to **Deleted Items**
+     2. The message has been moved to the **Deleted Items** folder. Delete the message from **Deleted Items**.
+     3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from **Deleted Items** see [Recover deleted email in Webmail](/how-to/recover-deleted-email-in-webmail/).
 
-     Warning: Messages purged from the **Trash** folder can be recovered for up to 14 days after deletion. After 14 days the message cannot be recovered.
+     Warning: Messages purged from the **Deleted Items** folder can be recovered for up to 14 days after deletion. 14 days after deletion the message cannot be recovered.
 
-- **Consider Rackspace Email Archiving** to ensure that email traffic to and from your domain is archived going forward. [Enable email archiving: Cloud Office Control Panel](/how-to/enable-email-archiving-cloud-office-control-panel/).
-
-
-### Checking mailbox storage in webmail
-
-1. Log in to [apps.rackspace.com](https://apps.rackspace.com/index.php).
-
-2. Click your username in the upper-right hand corner and the dropdown menu will show the current mailbox storage.
-
-<!--add screen shot file RSEstorageWebmailSC1.png-->
-
-Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for your storage available on the server.
+- **Consider Rackspace Cloud Office Archiving** to ensure that email traffic to and from your domain is archived going forward. [Enable email archiving: Cloud Office Control Panel](/how-to/enable-email-archiving-cloud-office-control-panel/).
 
 
 ### Mailbox storage best practices
 
-- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with. For example, if you archive email to your computer, and your computer is damaged beyond repair you have no way to recover that local archive.
-
-- If you must have over 25GB's in your mailbox at once, consider upgrading to our [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or [Office 365](https://www.rackspace.com/office-365) solutions.
+- We recommend that all customers enable [**Rackspace Cloud Office Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.
 
 - Never store over 10,000 items in one folder, especially the **Inbox**.
 
-- Audit your email for unneeded messages. For instance, if you know you will never need that Spam message for any reason, delete it.
+- Consider removing items from your Spam or Deleted Items folders.
 
-Note: Rackspace support cannot assist with archiving  your email locally.
-
-- If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in webmail.
+- If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in Outlook Web Access.
 
 Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for mailbox storage available on the server.
