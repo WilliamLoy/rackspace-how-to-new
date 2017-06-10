@@ -68,7 +68,7 @@ It is important to check  the **Usage** of mailboxes to determine which users ar
 
      1. Move an unwanted message to **Deleted Items**
      2. The message has been moved to the **Deleted Items** folder. Delete the message from **Deleted Items**.
-     3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from **Deleted Items** see [Recover deleted email in Webmail](/how-to/recover-deleted-email-in-webmail/).
+     3. The message no longer counts toward the mailbox storage. If you need to recover a message that you deleted from **Deleted Items** right-click the **Deleted Items** folder and select **Recover Deleted Items**.  
 
      Warning: Messages purged from the **Deleted Items** folder can be recovered for up to 14 days after deletion. 14 days after deletion the message cannot be recovered.
 
