@@ -41,7 +41,7 @@ Note: The **Usage** column is not a real time reading of the mailbox storage. **
 
 
 
-It is important to check  the **Usage** for user to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
+It is important to check  the **Usage** for mailboxes to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
 
 - Notify users near capacity and counsel them on archiving items to free up mailbox storage.
 
