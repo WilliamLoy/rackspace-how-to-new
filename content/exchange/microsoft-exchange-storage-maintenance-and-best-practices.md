@@ -77,7 +77,7 @@ It is important to check  the **Usage** of mailboxes to determine which users ar
 
 ### Mailbox storage best practices
 
-- We recommend that all customers enable [**Rackspace Cloud Office Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.
+- We recommend that all customers enable [**Rackspace Cloud Office Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.   
 
 - Never store over 10,000 items in one folder.
 
