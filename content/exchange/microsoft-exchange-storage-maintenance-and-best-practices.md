@@ -39,7 +39,7 @@ For more information about prerequisite terminology, see [Cloud Office support t
 
 4. The fourth column in the mailbox list labeled **Usage** shows the amount of free space each user has.
 
-Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours. Always reference the storage in apps.rackspace.com for real time storage.
+Note: The **Usage** column is not a real time reading of the mailbox storage. **Usage** updates once every 24 hours.
 
 Warning: If a mailbox is at max capacity, the mail sent during that time will be rejected and WILL NOT deliver after more mailbox space is created.
 
@@ -51,7 +51,11 @@ Warning: If a mailbox is at max capacity, the mail sent during that time will be
 
     <!--add screen shot file HEXstorageCPSC3.png-->
 
+7. Click **Save**
+
 Note: Allow at least 15 minutes for the storage quota to be increased.
+
+Warning: Most [mail clients](/how-to/cloud-office-support-terminology/#cloud-office-terminology) have maximum storage limits. For example, Outlook 2016 only allows up to 50GB of mail storage. If your Exchange mailbox size exceeds your mail client limit you will experience mail synchronization issues with your [mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology).
 
 
 It is important to check  the **Usage** of mailboxes to determine which users are nearing capacity. Below are recommendations for users nearing their storage capacity.
@@ -80,5 +84,3 @@ It is important to check  the **Usage** of mailboxes to determine which users ar
 - Consider removing items from your Spam or Deleted Items folders.
 
 - If you archive or delete messages on your [local mail client](/how-to/cloud-office-support-terminology/#cloud-office-terminology) log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to make certain that those changes are reflected in Outlook Web Access.
-
-Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.com/index.php) to be the authority for mailbox storage available on the server.
