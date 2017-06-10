@@ -92,7 +92,7 @@ Note: Consider the storage shown in [apps.rackspace.com](https://apps.rackspace.
 
 ### Mailbox storage best practices
 
-- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.  Archiving locally poses risks that Rackspace is unable to assist our customers with.   
+- We recommend that all customers enable [**Rackspace Email Archiving**](/how-to/enable-email-archiving-cloud-office-control-panel/) for all domains.    
 
 - Rackspace email storage is maxed at 25GB. Consider upgrading to our [Microsoft Exchange](https://www.rackspace.com/email-hosting/hosted-exchange) or [Office 365](https://www.rackspace.com/office-365) solutions for higher storage limits.
 
