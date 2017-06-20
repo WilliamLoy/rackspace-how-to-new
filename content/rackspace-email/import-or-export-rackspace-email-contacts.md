@@ -1,5 +1,5 @@
 ---
-permalink: import-or-export-contacts-in-rackspace-email-/
+permalink: import-or-export-contacts-in-rackspace-email/
 audit_date:
 title: Import or export contacts in Rackspace Email
 type: article
