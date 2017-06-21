@@ -19,11 +19,9 @@ Common Migration Wiz errors and their solutions.
 - **Time needed:** Approximately 1-2 hours
 - **Tools required:** Access to the Migration Wizard session
 
-For more information about prerequisite terminology, see [Cloud Office support terminology]
-(/how-to/cloud-office-support-terminology/).
+For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology/).
 
-If you have not yet started a Migration Wiz session, follow these instructions to get started [Migrating your email using the Self-Service Migration Tool]
-(/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) migrating your migrating your email.
+If you have not yet started a Migration Wiz session, follow these instructions to get started [Migrating your email using the Self-Service Migration Tool](/how-to/migrate-your-email-by-using-the-self-service-migration-tool/) migrating your migrating your email.
 
 Error:
 
@@ -31,7 +29,7 @@ Error:
 
 Resolution:
 
-- Verify the credentials are correct by logging in through the OWA URL (apps.rackspace.com) for the destination mailbox and then confirm the source credentials by logging into the account with your current email host such as Yahoo, Outlook.com, etc. Verify your migrating the mailboxes and not the aliases. 
+- Verify the credentials are correct by logging in through the OWA URL (apps.rackspace.com) for the destination mailbox and then confirm the source credentials by logging into the account with your current email host such as Yahoo, Outlook.com, etc. Verify your migrating the mailboxes and not the aliases.
 
 - When you try signing in, are you prompted to send a security code to enter? If so, you have two-factor authentication which will not allow Migration Wiz to complete a  migration.
 
