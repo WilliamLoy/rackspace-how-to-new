@@ -4,7 +4,7 @@ audit_date:
 title: Common Migration Wiz errors and their solutions
 type: article
 created_date: '2017-06-21'
-created_by: William Loy
+created_by: Johnny Cribb
 last_modified_date: '2017-06-21'
 last_modified_by: William Loy
 product: Rackspace Email
@@ -35,16 +35,21 @@ Resolution:
 
 Note: Accounts at Yahoo, Outlook.com, Windows Live, Hotmail usually have a default two-factor authentication system in place. You likely will not know you have two-factor authentication enabled. This two-factor authentication will prevent a migration from proceeding; Migration Wiz is unable to  authenticate two factor authentication.
 
-If migrating from Hotmail / Windows Live / Outlook.com account, make sure the two-factor authentication is off. To turn two-step verification on or off, follow these steps:
 
-    1.	Go to the Security settings page, and sign in with your Microsoft account.
+Steps to disable two-step authentication can be found at your current email host. Here are some common host instructions:
+  -  Hotmail - https://support.microsoft.com/en-us/help/12408/microsoft-account-about-two-step-verification
+  -  Windows Live - https://support.microsoft.com/en-us/help/12408/microsoft-account-about-two-step-verification
+  -  Outlook.com - https://support.microsoft.com/en-us/help/12408/microsoft-account-about-two-step-verification
+  -  Yahoo - https://help.yahoo.com/kb/SLN5013.html
+  -  Google - https://support.google.com/accounts/answer/1064203?hl=en
 
-    2.	Under Two-step verification, choose Set up two-step verification to turn it on, or choose Turn off two-step verification to turn it off.
 
-    3.	Follow these instructions: https://support.microsoft.com/en-us/help/12408/microsoft-account-about-two-step-verification
+Error:
 
-    4.	Try starting the migration again as this should solve the error.
+`OWA Address is Incorrect`
 
-    Steps to disable two-step authentication can be found at your current email host. Here are some common host instructions:
-    Yahoo - https://help.yahoo.com/kb/SLN5013.html
-    Google - https://support.google.com/accounts/answer/1064203?hl=en
+Resolution:
+
+1.	Check and make sure the credentials are correct by logging in through the Rackspace OWA URL (apps.rackspace.com).
+2.	If it still fails, you may need to try enabling Web DAV.  The source system may be blocking access to the Web DAV API.
+3.	To solve this, set your connector to use EWS (Check out this KB article: https://community.bittitan.com/kb/Pages/How%20do%20I%20export%20from%20Exchange%202007%20using%20WebDav%20rather%20than%20EWS.aspx).
