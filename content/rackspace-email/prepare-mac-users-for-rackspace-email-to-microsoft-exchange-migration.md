@@ -31,22 +31,35 @@ and should contact your [Administrator](/how-to/cloud-office-support-terminology
 
 1. Select your mailbox within Apple Mail
 
-2.  Select **Export Mailbox**
+<!--add screen shot file selectmailbox.png-->
 
-3.  Choose a folder or create a new folder, then click **Choose** as the destination of the export.
+2. Click on **Mailbox** tab on the top of your screen
 
-4.  Once location is selected, the export or backup will be stored where selected.
+3.  Select **Export Mailbox**
+
+<!--add screen shot file clickmailboxtabandselectexportmailbox.png-->
+
+4.  Choose a folder or create a new folder, then click **Choose** as the destination of the export.
+5.  Once location is selected, the export or backup will be stored where selected.
+
+<!--add screen shot file backupiscreated.png-->
+
 
 Note: Apple Mail exports the mailboxes as **.mbox** packages. If you previously exported a mailbox, Apple Mail doesn't overwrite the existing **.mbox** file; it creates
 a new **.mbox** file, such as **My Mailbox 3.mbox**.
 
 ### Once the backup is created, proceed to remove your mailbox from Apple Mail.
 1. Select **Mail** then **Accounts**
+
+<!--add screen shot file selectmailandclickonaccounts.png-->
+
 2.  Click on the **IMAP** account to be removed.
 
     Warning: Always double-check  that you are selecting the correct account. Repeat the steps to back up the mailbox if you are not certain the backup was successful. If the account is listed as POP instead of IMAP you should be absolutely certain the back up was successful before proceeding. If it was not the data will be unrecoverable.
 
 3.  Click on the **Minus sign(-)** sign on the bottom of the window.
+
+<!--add screen shot file clickontheminussign.png-->
 
 4.  Click **OK**
 
