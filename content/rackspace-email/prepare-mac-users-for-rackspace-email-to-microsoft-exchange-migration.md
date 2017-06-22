@@ -25,7 +25,7 @@ Mac users require special attention when migrating from Rackspace Email to Micro
 in such a way that does not translate properly to Microsoft Exchange.
 
 Before beginning, always log into [apps.rackspace.com](https://apps.rackspace.com/index.php) to verify that all email data is stored in your mailbox on the server. If it is not, you are at risk of data loss
-and should contact your [Administrator](/how-to/cloud-office-support-terminology/) to troubleshoot syncing your mail up to apps.rackspace.com.
+and should contact your [Administrator](/how-to/cloud-office-support-terminology/) to troubleshoot syncing your mail up to [apps.rackspace.com](https://apps.rackspace.com/index.php).
 
 ### Create a backup by exporting the mailbox:
 
