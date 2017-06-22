@@ -27,29 +27,28 @@ in such a way that does not translate properly to Microsoft Exchange.
 Before beginning, always log into apps.rackspace.com to verify that all email data is stored in your mailbox on the server. If it is not, you are at risk of data loss
 and should contact your Administrator to troubleshoot syncing your mail up to apps.rackspace.com.
 
-1. Create a backup by exporting the mailbox:
+### Create a backup by exporting the mailbox:
 
-- Select your mailbox within Apple Mail
+1. Select your mailbox within Apple Mail
 
-- Select **Export Mailbox**
+2.  Select **Export Mailbox**
 
-- Choose a folder or create a new folder, then click **Choose** as the destination of the export.
+3.  Choose a folder or create a new folder, then click **Choose** as the destination of the export.
 
-- Once location is selected, the export or backup will be stored where selected.
+4.  Once location is selected, the export or backup will be stored where selected.
 
 Note: Apple Mail exports the mailboxes as **.mbox** packages. If you previously exported a mailbox, Apple Mail doesn't overwrite the existing **.mbox** file; it creates
 a new **.mbox** file, such as **My Mailbox 3.mbox**.
 
-2. Once the backup is created, proceed to remove your mailbox from Apple Mail.
+### Once the backup is created, proceed to remove your mailbox from Apple Mail.
 
-- Click on the **IMAP** to be removed.
+1.  Click on the **IMAP** to be removed.
 
-Warning: Always double-check  that you are selecting the correct account. Repeat the steps to back up the mailbox if you are not certain the backup was successful.
-If the account is listed as POP instead of IMAP you should be absolutely certain the back up was successful before proceeding. If it was not the data will be unrecoverable.
+    Warning: Always double-check  that you are selecting the correct account. Repeat the steps to back up the mailbox if you are not certain the backup was successful. If the account is listed as POP instead of IMAP you should be absolutely certain the back up was successful before proceeding. If it was not the data will be unrecoverable.
 
-- Click on the **-** sign on the bottom of the window.
+2.  Click on the **-** sign on the bottom of the window.
 
-- Click **OK**
+3.  Click **OK**
 
 
 Once the mailbox has been removed, and your account is ready for migration, reboot your Mac so your device is ready to re-add your account after your migration is completed.
