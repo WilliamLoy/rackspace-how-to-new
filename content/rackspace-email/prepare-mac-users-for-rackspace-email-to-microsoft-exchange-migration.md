@@ -46,7 +46,7 @@ a new **.mbox** file, such as **My Mailbox 3.mbox**.
 
     Warning: Always double-check  that you are selecting the correct account. Repeat the steps to back up the mailbox if you are not certain the backup was successful. If the account is listed as POP instead of IMAP you should be absolutely certain the back up was successful before proceeding. If it was not the data will be unrecoverable.
 
-2.  Click on the **-** sign on the bottom of the window.
+2.  Click on the **Minus sign(-)** sign on the bottom of the window.
 
 3.  Click **OK**
 
