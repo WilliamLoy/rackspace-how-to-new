@@ -33,7 +33,7 @@ and should contact your [Administrator](/how-to/cloud-office-support-terminology
 
 <!--add screen shot file selectmailbox.png-->
 
-2. Click on **Mailbox** tab on the top of your screen
+2. Click the **Mailbox** tab on the top of your screen
 
 3.  Select **Export Mailbox**
 
