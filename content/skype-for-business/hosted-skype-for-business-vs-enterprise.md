@@ -43,4 +43,6 @@ For more information about prerequisite terminology, see [Cloud Office support t
 |Initiate/schedule multi-party (3+) audio, video conference| | &#10003;
 |Schedule web conferences| | &#10003;
 |Maximum number of people who are allowed to attend a meeting organized by user with this type of license| 100 | 250 |
+
+
 Note: Skype for Business Dial-in Conferencing is not supported for both licenses.
