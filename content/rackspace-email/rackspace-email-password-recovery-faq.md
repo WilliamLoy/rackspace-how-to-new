@@ -19,11 +19,8 @@ enter a mobile phone number for your account before it will work.
 ### Prerequisites
 
 - **Applies to:** User
-
 - **Difficulty:** Easy
-
 - **Time needed:** Approximately 5 minutes
-
 - **Tools required:** Your cell phone
 
 For more information about prerequisite terminology, see [Cloud Office support terminology](/how-to/cloud-office-support-terminology).
@@ -51,7 +48,7 @@ You use this passcode to change your password.
 
 <img src="{% asset_path rackspace-email/rackspace-email-password-recovery-faq/1481.1b.png %}" width="414" height="273" />
 
-Warning: Once your password has been changed you will need to update the password on any device used to check this mailbox.
+**Warning:** After you have changed your password, update the password on any device used to check this mailbox.
 
 ### Why is Webmail asking for my mobile phone number?
 
